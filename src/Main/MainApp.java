@@ -23,7 +23,7 @@ public class MainApp {
             System.out.println("2. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine();
 
             if (choice == 1) {
                 System.out.print("Enter username: ");
@@ -70,7 +70,7 @@ public class MainApp {
                         System.out.print("Last Name: ");
                         newStudent.setLastName(sc.nextLine());
 
-                        System.out.print("Date of Birth (YYYY-MM-DD): ");
+                        System.out.print("Date of Birth (DD-MM-YYYY): ");
                         newStudent.setDateOfBirth(sc.nextLine());
 
                         System.out.print("Gender: ");
